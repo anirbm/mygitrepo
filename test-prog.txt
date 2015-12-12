@@ -1,3 +1,5 @@
+Test Class :
+
 public class PrivateMemberExample {
 
     private String i_m_private = "I am private member, not accessible outside this Class";
