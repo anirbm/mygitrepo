@@ -7,6 +7,9 @@ if [ -z "${DOCKER_IMAGE:-}" ]; then
   exit 1
 fi
 
+sudo apt-get update
+sudo apt-get install gettext-base
+
 manifest="$(mktemp)"
 
 echo '--- :kubernetes: Shipping'
