@@ -1,5 +1,5 @@
 steps:
   - label: ":rocket: Push to :kubernetes:"
-    command: script/deploy.sh
+    command: script/deploy-base.sh
     concurrency: 1
     concurrency_group: deploy/tutorial
