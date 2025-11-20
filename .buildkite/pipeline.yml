@@ -3,5 +3,3 @@ steps:
     command: script/deploy.sh
     concurrency: 1
     concurrency_group: deploy/tutorial
-    agents:
-     queue: “TestQueue”
